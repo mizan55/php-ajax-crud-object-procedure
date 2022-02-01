@@ -158,6 +158,24 @@
                       }
               });
       }); //end_save_update
+      
+      //search_start
+$('#search').on('keyup',function(){
+var search=$(this).val();
+
+$.ajax({
+  url:'search.php',
+  type:'POST',
+  data:{search:search},
+  success:function(data){
+    $('#table').html(data);
+  }
+});
+});
+
+
+
+//search_end
 
 
      
