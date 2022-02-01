@@ -26,8 +26,9 @@
         <input type="number" name="age" id="age"></div>
       </row>
     <button class="btn  btn-primary mt-5" id="save">save record</button>
+      <input type="text"class=" mt-5  float-end" placeholder="search" id="search" >
     </form>
- <!--formstart-->
+ <!--form-end-->
 
 
 
